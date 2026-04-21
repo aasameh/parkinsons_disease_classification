@@ -14,11 +14,11 @@ def parse_args():
     p = argparse.ArgumentParser(description="Live directory-watching inference engine")
     p.add_argument("--watch-dir",      help="Directory to monitor for new .npy files", default="./watch_incoming")
     p.add_argument("--mode",           choices=["pd_vs_hc", "pd_vs_dd"], default="pd_vs_hc")
-    p.add_argument("--artifact-root", help="Path to artifact root containing .pkl multiboss", default="C:\\college\\6th\\PBL2\\pads-project\\data")
+    p.add_argument("--artifact-root", help="Path to artifact root containing .pkl multiboss", default="C:\\college\\6th\\PBLx\\artifacts")
     p.add_argument("--data-root",      default=None,  help="Only required on first run when no cache exists. Ignored if cache hit.")
     p.add_argument("--poll-interval",  type=float, default=2.0)
     p.add_argument("--file-age",       type=float, default=3.0)
-    p.add_argument("--sim-data-dir",   default="C:\\college\\6th\\PBL2\\pads-project\\data\\raw_npy\\timeseries",  help="If set, replay .npy files from this dir into watch-dir (testing only)")
+    p.add_argument("--sim-data-dir",   default="C:\\college\\6th\\PBLx\\data\\raw_npy\\timeseries",  help="If set, replay .npy files from this dir into watch-dir (testing only)")
     p.add_argument("--sim-interval",   type=float, default=30.0, help="Interval between simulated file drops")
     return p.parse_args()
 
@@ -64,7 +64,7 @@ def main():
 
     artifact_root = Path(args.artifact_root).resolve()
 
-    cache_dir = artifact_root / "out" / "deploy_cache"
+    cache_dir = artifact_root / "deploy_cache"
     
     stage1_path = cache_dir / "stage1_model.pkl"
     print(f"[Inference] Loading stage1 model from {stage1_path} ...")
