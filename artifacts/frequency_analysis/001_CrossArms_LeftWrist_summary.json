@@ -1,0 +1,33 @@
+{
+  "source_type": "npy",
+  "source_path": "C:\\college\\6th\\PBL2\\pads-project\\data\\raw_npy\\timeseries\\001_CrossArms_LeftWrist.npy",
+  "channel": "npy_ch_1",
+  "npy_layout": "samples_by_channels",
+  "sampling_rate": 100,
+  "dominant_freq_hz": 0.78125,
+  "dominant_power": 0.05271626892166956,
+  "motion_type": "Slow voluntary movement",
+  "band_powers": {
+    "movement_0_2hz": 0.03624628119606732,
+    "tremor_3_12hz": 0.0006503500749570714,
+    "high_freq_12_30hz": 6.794692671871774e-05
+  },
+  "statistics": {
+    "mean": -0.13054969859152443,
+    "std": 0.2480993115763704,
+    "rms": 0.2803506593660996,
+    "peak_to_peak": 1.0777137875556946,
+    "skewness": -1.8250098987618664
+  },
+  "power_50hz": 3.7572997788019206e-08,
+  "power_60hz": 0.0,
+  "noise_floor": 1.047468847371308e-06,
+  "snr_50hz_db": -14.452541246820934,
+  "snr_60hz_db": -60.20141530150283,
+  "plots": {
+    "raw": "C:\\college\\6th\\PBL2\\pads-project\\data\\out\\frequency_analysis\\001_CrossArms_LeftWrist_raw.png",
+    "psd": "C:\\college\\6th\\PBL2\\pads-project\\data\\out\\frequency_analysis\\001_CrossArms_LeftWrist_psd.png",
+    "spectrogram": "C:\\college\\6th\\PBL2\\pads-project\\data\\out\\frequency_analysis\\001_CrossArms_LeftWrist_spectrogram.png",
+    "histogram": "C:\\college\\6th\\PBL2\\pads-project\\data\\out\\frequency_analysis\\001_CrossArms_LeftWrist_hist.png"
+  }
+}

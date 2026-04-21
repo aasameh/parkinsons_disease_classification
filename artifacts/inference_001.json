@@ -1,0 +1,40 @@
+{
+  "mode": "pd_vs_hc",
+  "exp_name": "pd_vs_hc_mov_b_both_svm",
+  "classifier": "svm",
+  "test_fold_reference": 5,
+  "reference_test_accuracy": 92.96,
+  "reference_test_balanced_accuracy": 85.77,
+  "selected_folds": [
+    5
+  ],
+  "aggregate_folds": false,
+  "artifact_root": "C:\\college\\6th\\PBL2\\pads-project\\data",
+  "data_root": "C:\\college\\6th\\PBL2\\pads-project\\data\\preprocessed",
+  "model_cache": "C:\\college\\6th\\PBL2\\pads-project\\data\\out\\deploy_cache",
+  "sample": "C:\\college\\6th\\PBL2\\pads-project\\data\\preprocessed\\movement\\001_ml.bin",
+  "window_minutes": 0.1626667,
+  "sampling_rate": 100,
+  "segment_samples": 976,
+  "segment_stride": 976,
+  "n_windows": 1,
+  "overall_prediction": 0,
+  "overall_prediction_label": "HC",
+  "window_results": [
+    {
+      "n_segments": 1,
+      "prediction": 0,
+      "prediction_label": "HC",
+      "probabilities": [
+        0.7309935209268394,
+        0.2690064790731606
+      ],
+      "probabilities_source": "segment_aggregate:decision_function_sigmoid",
+      "segment_predictions": [
+        0
+      ],
+      "test_fold_reference": 5,
+      "window_index": 0
+    }
+  ]
+}

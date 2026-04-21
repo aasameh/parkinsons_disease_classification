@@ -1,0 +1,11 @@
+test_accuracy	test_balanced_accuracy	test_f1	test_precision	test_recall	test_roc_auc	hyperopt_balanced_accuracy	params	mode	data	experiment	channel_filter	classifier	test_fold	exp_name
+83.33	77.35	68.29	73.68	63.64	77.35	0.6981791600212653	clf__C: 1.0, clf__gamma: scale	pd_vs_dd	movement	b	Rotation	svm	1	pd_vs_dd_mov_b_rot_svm
+80.77	74.98	65.12	70.0	60.87	74.98	0.7197527910685805	clf__C: 10.0, clf__gamma: scale	pd_vs_dd	movement	b	Both	svm	2	pd_vs_dd_mov_b_both_svm
+62.82	58.46	43.14	39.29	47.83	58.46	0.7254704944178628	clf__module__h_layer_sizes: [50]	pd_vs_dd	movement	a	Acceleration	nn	3	pd_vs_dd_mov_a_acc_nn
+76.92	68.46	55.0	64.71	47.83	68.46	0.727379053694843	clf__C: 1.0, clf__gamma: scale	pd_vs_dd	movement	b	Rotation	svm	4	pd_vs_dd_mov_b_rot_svm
+74.36	66.64	52.38	57.89	47.83	66.64	0.7057735247208932	clf__C: 1.0, clf__gamma: scale	pd_vs_dd	movement	b	Rotation	svm	5	pd_vs_dd_mov_b_rot_svm
+80.28	69.55	87.5	85.96	89.09	69.55	0.8724864024864025	clf__C: 1.0, clf__gamma: scale	pd_vs_hc	movement	b	Both	svm	1	pd_vs_hc_mov_b_both_svm
+87.32	76.31	92.17	88.33	96.36	76.31	0.8217637917637918	clf__module__h_layer_sizes: [200]	pd_vs_hc	movement	a	Both	nn	2	pd_vs_hc_mov_a_both_nn
+85.92	75.4	91.23	88.14	94.55	75.4	0.8379797979797979	clf__depth: 4, clf__num_trees: 500, scaler: passthrough	pd_vs_hc	movement	b	Rotation	cat	3	pd_vs_hc_mov_b_rot_cat
+91.55	87.9	94.55	94.55	94.55	87.9	0.8369308469308467	clf__C: 1.0, clf__gamma: scale	pd_vs_hc	movement	b	Rotation	svm	4	pd_vs_hc_mov_b_rot_svm
+92.96	85.77	95.65	93.22	98.21	85.77	0.8217365967365968	clf__C: 1.0, clf__gamma: scale	pd_vs_hc	movement	b	Both	svm	5	pd_vs_hc_mov_b_both_svm

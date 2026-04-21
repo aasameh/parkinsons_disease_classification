@@ -1,0 +1,20 @@
+{
+  "mode": "pd_vs_hc",
+  "selection_strategy": "best",
+  "observation_json": "..\\pads-parkinsons-disease-smartwatch-dataset-1.0.0\\movement\\observation_001.json",
+  "exp_name": "pd_vs_hc_mov_b_both_svm",
+  "classifier": "svm",
+  "test_fold_reference": 5,
+  "reference_test_accuracy": 92.96,
+  "reference_test_balanced_accuracy": 85.77,
+  "model_cache": "C:\\college\\6th\\PBL2\\pads-project\\data\\out\\deploy_cache\\mov_pd_vs_hc_pd_vs_hc_mov_b_both_svm_22d7e9b5f49c3b748b70c7931f147a5f.pkl",
+  "artifact_root": "C:\\college\\6th\\PBL2\\pads-project\\data",
+  "data_root": "C:\\college\\6th\\PBL2\\pads-project\\data\\preprocessed",
+  "prediction": 1,
+  "prediction_label": "PD",
+  "probabilities": [
+    0.4055811835215931,
+    0.5944188164784069
+  ],
+  "probabilities_source": "decision_function_sigmoid"
+}

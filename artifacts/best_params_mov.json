@@ -1,0 +1,45 @@
+[
+  {
+    "clf__C": 1.0,
+    "clf__gamma": "scale"
+  },
+  {
+    "clf__C": 1.0,
+    "clf__gamma": "scale"
+  },
+  {
+    "clf__module__h_layer_sizes": [
+      50
+    ]
+  },
+  {
+    "clf__C": 1.0,
+    "clf__gamma": "scale"
+  },
+  {
+    "clf__C": 1.0,
+    "clf__gamma": "scale"
+  },
+  {
+    "clf__C": 1.0,
+    "clf__gamma": "scale"
+  },
+  {
+    "clf__module__h_layer_sizes": [
+      50
+    ]
+  },
+  {
+    "clf__depth": 4,
+    "clf__num_trees": 500,
+    "scaler": "passthrough"
+  },
+  {
+    "clf__C": 1.0,
+    "clf__gamma": "scale"
+  },
+  {
+    "clf__C": 1.0,
+    "clf__gamma": "scale"
+  }
+]

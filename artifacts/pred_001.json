@@ -1,0 +1,16 @@
+{
+  "mode": "pd_vs_hc",
+  "exp_name": "pd_vs_hc_mov_b_both_svm",
+  "classifier": "svm",
+  "test_fold_reference": 1,
+  "model_cache": "..\\data\\out\\deploy_cache\\mov_pd_vs_hc_pd_vs_hc_mov_b_both_svm_22d7e9b5f49c3b748b70c7931f147a5f.pkl",
+  "artifact_root": "../data",
+  "data_root": "..\\data\\preprocessed",
+  "prediction": 0,
+  "prediction_label": "HC",
+  "probabilities": [
+    0.7309935209268394,
+    0.2690064790731606
+  ],
+  "probabilities_source": "decision_function_sigmoid"
+}

@@ -1,0 +1,40 @@
+{
+  "mode": "pd_vs_hc",
+  "model": {
+    "classifier": "svm",
+    "transform": "MultiBOSS",
+    "channels": "Both",
+    "exp_name": "pd_vs_hc_mov_b_both_svm"
+  },
+  "selected_folds": [
+    5
+  ],
+  "aggregate_folds": false,
+  "sample": "C:\\college\\6th\\PBL2\\pads-project\\data\\preprocessed\\movement\\001_ml.bin",
+  "n_windows": 1,
+  "overall_prediction": 0,
+  "overall_prediction_label": "HC",
+  "window_results": [
+    {
+      "window_index": 0,
+      "prediction": 0,
+      "prediction_label": "HC",
+      "probabilities": [
+        0.7309935209268394,
+        0.2690064790731606
+      ],
+      "source": "single_fold",
+      "per_fold": [
+        {
+          "fold": 5,
+          "prediction": 0,
+          "probabilities": [
+            0.7309935209268394,
+            0.2690064790731606
+          ],
+          "n_segments": 1
+        }
+      ]
+    }
+  ]
+}
