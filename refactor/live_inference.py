@@ -18,7 +18,7 @@ def parse_args():
     p.add_argument("--data-root",      default=None,  help="Only required on first run when no cache exists. Ignored if cache hit.")
     p.add_argument("--poll-interval",  type=float, default=2.0)
     p.add_argument("--file-age",       type=float, default=3.0)
-    p.add_argument("--sim-data-dir",   default="C:\\college\\6th\\PBLx\\data\\raw_npy\\timeseries",  help="If set, replay .npy files from this dir into watch-dir (testing only)")
+    p.add_argument("--sim-data-dir",   default=None,  help="If set, replay .npy files from this dir into watch-dir (testing only)")
     p.add_argument("--sim-interval",   type=float, default=30.0, help="Interval between simulated file drops")
     return p.parse_args()
 
